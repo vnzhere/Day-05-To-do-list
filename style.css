@@ -1,0 +1,68 @@
+/* Remove default margin */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main box */
+.container {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Input section */
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #4e73df;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Each task */
+li {
+    background: #f8f9fc;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Completed task style */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
